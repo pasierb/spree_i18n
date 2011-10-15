@@ -7,7 +7,7 @@ pl:
   abbreviation: Skrót
   access_denied: "Access Denied"
   account: Konto
-  account_updated: "Account updated!"
+  account_updated: "Dane konta zostały zaktualizowane"
   action: Akcja
   actions: 
     cancel: Anuluj
@@ -237,7 +237,7 @@ pl:
   adjustments: Adjustments
   administration: Administracja
   all: "All"
-  all_departments: All departments
+  all_departments: Szukaj w całym sklepie
   allow_backorders: "Allow Backorders"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
   allow_ssl_to_be_used_when_in_production_mode: Allow SSL to be used in production mode
@@ -310,7 +310,7 @@ pl:
   charge_total: Charge Total
   charged: Charged
   charges: Charges
-  checkout: "Do kasy"
+  checkout: Adres
   cheque: Cheque
   city: Miejscowość
   clone: Clone
@@ -325,7 +325,7 @@ pl:
   confirm: Potwierdź
   confirm_delete: "Confirm Deletion"
   confirm_password: "Potwierdzenie hasła"
-  continue: Continue
+  continue: Kontynuuj
   continue_shopping: "Kontynuuj zakupy"
   copy_all_mails_to: Copy All Mails To
   cost_price: "Cost Price"
@@ -390,7 +390,7 @@ pl:
   email: Email
   email_address: "Adres email"
   email_server_settings_description: "Skonfiguruj ustawienia serwera pocztowego."
-  empty: "Empty"
+  empty: "Pusty"
   empty_cart: "Opróżnij koszyk"
   enable_login_via_login_password: "Use standard email/password"
   enable_login_via_openid: "Use OpenID instead"
@@ -427,7 +427,7 @@ pl:
   flat_rate_per_item: "Flat Rate (per item)"
   flat_rate_per_order: "Flat Rate (per order)"
   flexible_rate: "Flexible Rate"
-  forgot_password: "Forgot Password"
+  forgot_password: "Przypomnienie hasła"
   free_shipping: Free Shipping
   from_state: From State
   front_end: Front End
@@ -448,12 +448,12 @@ pl:
   google_analytics_new: "New Google Analytics Account"
   google_analytics_setting_description: "Manage Google Analytics ID"
   guest_checkout: Guest Checkout
-  guest_user_account: Checkout as a Guest
+  guest_user_account: Zakupy bez zakładania konta
   has_no_shipped_units: has no shipped units
   height: Height
   hello_user: "Witaj użytkowniku"
   history: History
-  home: "Home"
+  home: "Strona glówna"
   icon: "Icon"
   icons_by: "Icons by"
   image: Obrazek
@@ -463,7 +463,7 @@ pl:
   include_in_shipment: Include in Shipment
   included_in_other_shipment: Included in another Shipment
   included_in_this_shipment: Included in this Shipment
-  instructions_to_reset_password: "Fill out the form below and instructions to reset your password will be emailed to you:"
+  instructions_to_reset_password: "Po podaniu swojego adresu email otrzymasz wiadomość z dalszymi instrukcjami."
   integration_settings_warning: "If you are changing the billing integration, you must save first before you can edit the integration settings"
   intercept_email_address: Intercept Email Address
   intercept_email_instructions: "Override email recipient and replace with this address."
@@ -503,14 +503,14 @@ pl:
   locale_changed: "Locale Changed"
   log_in: Zaloguj
   logged_in_as: "Zalogowany jako"
-  logged_in_succesfully: "Logged in successfully"
+  logged_in_succesfully: "Użytkownik został zalogowany."
   logged_out: "You have been logged out."
   login: Login
-  login_as_existing: "Log In as Existing Customer"
+  login_as_existing: "Zaloguj się"
   login_failed: "Login authentication failed."
   login_name: Login
   logout: Wyloguj
-  look_for_similar_items: Look for similar items
+  look_for_similar_items: Przeglądaj podobne produkty
   maestro_or_solo_cards: Maestro/Solo cards
   mail_delivery_enabled: "Mail delivery is enabled"
   mail_delivery_not_enabled: "Mail delivery is not enabled"
@@ -528,7 +528,7 @@ pl:
   missing_required_information: "Missing Required Information"
   month: "Month"
   my_account: "Moje konto"
-  my_orders: "My Orders"
+  my_orders: Moje zamówienia
   name: Name
   name_or_sku: "Name or SKU"
   new: New
@@ -566,7 +566,7 @@ pl:
   no_items_in_cart: "Koszyk jest pusty"
   no_match_found: "No Match Found"
   no_payment_methods_available: "Can't check out, no payment methods are configured for this environment"
-  no_products_found: "No products found"
+  no_products_found: Nie znaleziono produktów
   no_results: "No results"
   no_rules_added: No rules added
   no_user_found: "No user was found with that email address"
@@ -611,18 +611,18 @@ pl:
   order_processed_successfully: "Twoje zamówienie zostało pomyślnie przetworzone"
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
-    address: address
-    adjustments: adjustments
-    awaiting_return: awaiting return
-    canceled: canceled
-    cart: cart
-    complete: complete
-    confirm: confirm
-    delivery: delivery
-    payment: payment
-    resumed: resumed
-    returned: returned
-  order_summary: Order Summary
+    address: adres
+    adjustments: zmiany
+    awaiting_return: oczekuje na zwrot
+    canceled: anulowane
+    cart: koszyk
+    complete: podsumowanie
+    confirm: potwierdź
+    delivery: dostawa
+    payment: płatność
+    resumed: wznowione
+    returned: zwrócone
+  order_summary: Podsumowanie zamówienia
   order_sure_want_to: "Are you sure you want to %{event} this order?"
   order_total: "Zamówienie łącznie"
   order_total_message: "The total amount charged to your card will be"
@@ -688,7 +688,7 @@ pl:
   product_group: Product Group
   product_group_invalid: Product Group has invalid scopes
   product_groups: Product Groups
-  product_has_no_description: Product has not description
+  product_has_no_description: Produkt nie posiada opisu
   product_properties: "Właściwości produktu"
   product_rule: 
     choose_products: Choose products
@@ -854,7 +854,7 @@ pl:
   refund: Refund
   register: Register as a New User
   register_or_guest: Checkout as Guest or Register
-  registration: Registration
+  registration: Rejestracja
   remember_me: "Zapamiętaj mnie"
   remove: Remove
   reports: Raporty
@@ -862,7 +862,7 @@ pl:
   resend: "Przeslij ponownie"
   resend_confirmation_instructions: "Resend confirmation instructions"
   resend_unlock_instructions: "Resend unlock instructions"
-  reset_password: "Reset my password"
+  reset_password: "Przypomnij mi hasło"
   resource_controller: 
     member_object_not_found: "Member object not found."
     successfully_created: "Successfully created!"
@@ -885,7 +885,7 @@ pl:
   sales_tax: "Sales Tax"
   sales_total: "Sales Total"
   sales_total_description: "Sales Total For All Orders"
-  save_and_continue: Save and Continue
+  save_and_continue: Zapisz i kontynuuj
   save_preferences: Save Preferences
   scope: Scope
   scopes: Scopes
@@ -935,7 +935,7 @@ pl:
   shipping_methods: "Shipping Methods"
   shipping_methods_description: "Manage shipping methods"
   shipping_total: "Koszt dostawy"
-  shop_by_taxonomy: "Shop by %{taxonomy}"
+  shop_by_taxonomy: "%{taxonomy}"
   shopping_cart: Koszyk
   show: Show
   show_active: "Show Active"
@@ -980,7 +980,7 @@ pl:
   store: Sklep
   street_address: Ulica
   street_address_2: "Ulica (c.d)"
-  subtotal: "Suma częściowa"
+  subtotal: "Suma (bez kosztów przesyłki)"
   subtract: Subtract
   successfully_created: "%{resource} has been successfully created!"
   successfully_removed: "%{resource} has been successfully removed!"
@@ -1037,7 +1037,7 @@ pl:
   updating: Updating
   usage_limit: Usage Limit
   use_as_shipping_address: Use as Shipping Address
-  use_billing_address: Use Billing Address
+  use_billing_address: Taki sam jak adres bilingowy
   use_different_shipping_address: "Użyj innego adresy dostawy"
   use_new_cc: "Use a new card"
   user: Użytkownik
@@ -1068,10 +1068,17 @@ pl:
   width: Width
   year: "Year"
   you_have_been_logged_out: "You have been logged out."
-  you_have_no_orders_yet: "You have no orders yet."
-  your_cart_is_empty: "Your cart is empty"
+  you_have_no_orders_yet: Nie zrobione jeszcze żadnego zamówienia
+  your_cart_is_empty: Koszyk jest pusty
   zip: "Kod pocztowy"
   zone: Strefa
   zone_based: "Zone Based"
   zone_setting_description: "Zbiory krajów, stanów i innych stref używane w różnych przeliczeniach."
   zones: Strefy
+  devise:
+    user_sessions:
+      user:
+        signed_out: Użytkownik został wylogowany. Zapraszamy ponownie!
+    user_passwords:
+      user:
+        send_instructions: Instrukcje dotyczące przypomnienia hasła zostały wysłane.
