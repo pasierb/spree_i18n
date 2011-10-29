@@ -907,31 +907,31 @@ pl:
   settings: Settings
   ship: wyślij
   ship_address: "Adres Dostawy"
-  shipment: Shipment
-  shipment_details: Shipment Details
+  shipment: Dostawa
+  shipment_details: Szczegóły dostawy
   shipment_mailer: 
     shipped_email: 
-      subject: "Shipment Notification"
-  shipment_number: "Shipment #"
-  shipment_state: Shipment State
+      subject: "Uaktualnienie statusu dostawy"
+  shipment_number: "Dostawa #"
+  shipment_state: Status dostawy
   shipment_states: 
-    backorder: backorder
-    partial: partial
-    pending: pending
-    ready: ready
-    shipped: shipped
-  shipment_updated: Shipment Updated
-  shipments: "Shipments"
-  shipped: Shipped
+    backorder: oczekuje na dostawę
+    partial: częściowe
+    pending: oczekujące
+    ready: gotowe
+    shipped: zrealizowane
+  shipment_updated: Dostawa zaktualizowana
+  shipments: "Dostawy"
+  shipped: Dostarczono
   shipping: Dostawa
   shipping_address: "Adres Dostawy"
   shipping_categories: "Shipping Categories"
   shipping_categories_description: "Manage shipping categories to identify which products can be shipped via which method"
   shipping_category: Shipping Category
-  shipping_cost: Cost
+  shipping_cost: Koszt dostawy
   shipping_error: "Shipping Error"
-  shipping_instructions: "Shipping Instructions"
-  shipping_method: Method
+  shipping_instructions: "Dodatkowe informacje"
+  shipping_method: Sposób
   shipping_methods: "Shipping Methods"
   shipping_methods_description: "Manage shipping methods"
   shipping_total: "Koszt dostawy"
@@ -941,7 +941,7 @@ pl:
   show_active: "Show Active"
   show_deleted: "Show Deleted"
   show_incomplete_orders: "Show Incomplete Orders"
-  show_only_complete_orders: "Only show complete orders"
+  show_only_complete_orders: "Tylko ukończone zamówienia"
   show_out_of_stock_products: "Show out-of-stock products"
   show_price_inc_vat: "Show price including VAT"
   showing_first_n: "Showing first %{n}"
@@ -1007,7 +1007,7 @@ pl:
   test: "Test"
   test_mode: Test Mode
   thank_you_for_your_order: "Thank you for your business.  Please print out a copy of this confirmation page for your records."
-  there_were_problems_with_the_following_fields: "There were problems with the following fields"
+  there_were_problems_with_the_following_fields: ""
   this_file_language: Polski (PL)
   this_month: "This Month"
   this_year: "This Year"
