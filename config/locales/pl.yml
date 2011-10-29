@@ -1,7 +1,7 @@
 --- 
 pl: 
-  'no': "No"
-  'yes': "Yes"
+  'no': "Nie"
+  'yes': "Tak"
   5_biggest_spenders: "5 Biggest Spenders"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: A copy of all mail be sent to the following addresses
   abbreviation: Skrót
@@ -21,34 +21,34 @@ pl:
   activerecord: 
     attributes: 
       address: 
-        address1: Address
-        address2: "Address (contd.)"
-        city: City
-        country: "Country"
-        first_name_begins_with: "First Name Begins With"
-        firstname: "First Name"
-        last_name_begins_with: "Last Name Begins With"
-        lastname: "Last Name"
-        phone: Phone
-        state: "State"
-        zipcode: "Zip Code"
+        address1: Ulica
+        address2: "Ulica (cd.)"
+        city: Miasto
+        country: "Państwo"
+        first_name_begins_with: "Imię zaczyna się od"
+        firstname: "Imię"
+        last_name_begins_with: "Nazwisko zaczyna się od"
+        lastname: "Nazwisko"
+        phone: Telefon
+        state: "Stan"
+        zipcode: "Kod pocztowy"
       checkout: 
         bill_address: 
-          address1: "Billing address street"
-          city: "Billing address city"
-          firstname: "Billing address first name"
-          lastname: "Billing address last name"
-          phone: "Billing address phone"
-          state: "Billing address state"
-          zipcode: "Billing address zipcode"
+          address1: "Ulica"
+          city: "Misato"
+          firstname: "Imię"
+          lastname: "Imię zaczyna się od"
+          phone: "Telefon"
+          state: "Stan"
+          zipcode: "Kod pocztowy"
         ship_address: 
-          address1: "Shipping address street"
-          city: "Shipping address city"
-          firstname: "Shipping address first name"
-          lastname: "Shipping address last name"
-          phone: "Shipping address phone"
-          state: "Shipping address state"
-          zipcode: "Shipping address zipcode"
+          address1: "Ulica adresu dostawy"
+          city: "Miasto adresu dostawy"
+          firstname: "Imię adresu dostawy"
+          lastname: "Nazwisko adresu dostawy"
+          phone: "Telefon adresu dostawy"
+          state: "Stan adresu dostawy"
+          zipcode: "Kod pocztowy adresu dostawy"
       country: 
         iso: ISO
         iso3: ISO3
@@ -56,37 +56,37 @@ pl:
         name: Name
         numcode: "ISO Code"
       creditcard: 
-        cc_type: Type
-        month: Month
-        number: Number
+        cc_type: Typ
+        month: Miesiąc
+        number: Numer
         verification_value: "Verification Value"
-        year: Year
+        year: Rok
       inventory_unit: 
-        state: State
+        state: Stan
       line_item: 
-        price: Price
-        quantity: Quantity
+        price: Cena
+        quantity: Ilość
       order: 
-        checkout_complete: "Checkout Complete"
-        completed_at: "Completed At"
-        coupon_code: "Coupon Code"
-        ip_address: "IP Address"
+        checkout_complete: "Zamówienie ukończone"
+        completed_at: "Ukończono"
+        coupon_code: "Kod kuponu"
+        ip_address: "Adres IP"
         item_total: "Item Total"
-        number: Number
-        special_instructions: "Special Instructions"
-        state: State
-        total: Total
+        number: Numer
+        special_instructions: "Dodatkowe instrukcje"
+        state: Stan
+        total: W sumie
       product: 
-        available_on: "Available On"
-        cost_price: "Cost Price"
-        description: Description
-        master_price: "Master Price"
-        name: Name
-        on_hand: "On Hande"
-        shipping_category: "Shipping Category"
-        tax_category: "Tax Category"
+        available_on: "Premiera"
+        cost_price: "Cena netto"
+        description: Opis
+        master_price: "Cena produktu głównego"
+        name: Nazwa
+        on_hand: "Na stanie"
+        shipping_category: "Kategoria dostawy"
+        tax_category: "Kategoria podatkowa"
       product_group: 
-        name: "Name"
+        name: "Nazwa"
         product_count: "Product count"
         product_scopes: "Product scopes"
         products: "Products"
@@ -105,51 +105,51 @@ pl:
         name: Name
         presentation: Presentation
       prototype: 
-        name: Name
+        name: Nazwa
       return_authorization: 
-        amount: Amount
+        amount: Ilość
       role: 
-        name: Name
+        name: Nazwa
       state: 
-        abbr: Abbreviation
-        name: Name
+        abbr: Skrót
+        name: Nazwa
       tax_category: 
-        description: Description
-        name: Name
+        description: Opis
+        name: Nazwa
       tax_rate: 
-        amount: Rate
+        amount: Stawka
       taxon: 
-        name: Name
+        name: Nazwa
         permalink: Permalink
-        position: Position
+        position: Pozycja
       taxonomy: 
-        name: Name
+        name: Nazwa
       user: 
         email: Email
       variant: 
-        cost_price: "Cost Price"
-        depth: Depth
-        height: Height
-        price: Price
+        cost_price: "Cena netto"
+        depth: Głębokość
+        height: Wysokość
+        price: Cena
         sku: SKU
-        weight: Weight
-        width: Width
+        weight: Waga
+        width: Szerokość
       zone: 
-        description: Description
-        name: Name
+        description: Opis
+        name: Nazwa
     models: 
       address: 
-        one: Address
-        other: Addresses
+        one: Adres
+        other: Adres
       cheque_payment: 
         one: Cheque Payment
         other: Cheque Payments
       country: 
-        one: Country
-        other: Countries
+        one: Państwo
+        other: Państwa
       creditcard: 
-        one: "Credit Card"
-        other: "Credit Cards"
+        one: "Karta kredytowa"
+        other: "Karty kredytowe"
       creditcard_payment: 
         one: "Credit Card Payment"
         other: "Credit Card Payments"
@@ -216,13 +216,13 @@ pl:
       zone: 
         one: Zone
         other: Zones
-  add: Add
+  add: Dodaj
   add_category: "Dodaj kategorię"
-  add_country: "Add Country"
+  add_country: "Dodaj państwo"
   add_option_type: "Dodaj typ opcji"
   add_option_types: "Dodaj typy opcji"
-  add_option_value: "Add Option Value"
-  add_product: "Add Product"
+  add_option_value: "Dodaj wartość opcji"
+  add_product: "Dodaj produkt"
   add_product_properties: "Dodaj właściwości produktu"
   add_rule_of_type: Add rule of type
   add_scope: "Add a scope"
@@ -231,7 +231,7 @@ pl:
   add_zone: "Add Zone"
   additional_item: Additional Item Cost
   address: Adres
-  address_information: "Address Information"
+  address_information: "Dane adresowe"
   adjustment: Dostosowanie
   adjustment_total: Adjustment Total
   adjustments: Adjustments
@@ -242,7 +242,7 @@ pl:
   allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
   allow_ssl_to_be_used_when_in_production_mode: Allow SSL to be used in production mode
   allowed_ssl_in_production_mode: "SSL will %{not} be used in production"
-  already_registered: Already Registered?
+  already_registered: Masz już konto?
   alt_text: Alternative Text
   alternative_phone: Alternative Phone
   amount: Suma
@@ -260,12 +260,12 @@ pl:
     key_generated: "API key generated"
     no_key: "No key defined"
     regenerate_key: "Regenerate API key"
-  apply: "Apply"
-  are_you_sure: "Are you sure"
-  are_you_sure_category: "Czy napewno usunąć tę kategorię?"
-  are_you_sure_delete: "Czy napewno usunąć ten rekord?"
-  are_you_sure_delete_image: "Czy napewno usunąć ten obrazek?"
-  are_you_sure_option_type: "Czy napewno usunąć ten typ opcji?"
+  apply: "Zastosuj"
+  are_you_sure: "Na pewno?"
+  are_you_sure_category: "Czy na pewno usunąć tę kategorię?"
+  are_you_sure_delete: "Czy na pewno usunąć ten rekord?"
+  are_you_sure_delete_image: "Czy na pewno usunąć ten obrazek?"
+  are_you_sure_option_type: "Czy na pewno usunąć ten typ opcji?"
   are_you_sure_you_want_to_capture: "Are you sure you want to capture?"
   assign_taxon: "Assign Taxon"
   assign_taxons: "Assign Taxons"
@@ -290,9 +290,9 @@ pl:
   calculator: Calculator
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
   cancel: anuluj
-  cancel_my_account: Cancel my account
-  cancel_my_account_description: "Unhappy?"
-  canceled: Canceled
+  cancel_my_account: Usuń konto
+  cancel_my_account_description: "Niezadowolony?"
+  canceled: Anulowano
   cannot_create_returns: Cannot create returns as this order has not shipped yet.
   cannot_destory_line_item_as_inventory_units_have_shipped: Cannot destory line item as some inventory units have shipped.
   cannot_perform_operation: "Cannot perform requested operation"
@@ -306,7 +306,7 @@ pl:
   category: Kategoria
   change: Zmień
   change_language: "Zmień język"
-  change_my_password: "Change my password"
+  change_my_password: "Zmień hasło"
   charge_total: Charge Total
   charged: Charged
   charges: Charges
@@ -314,7 +314,7 @@ pl:
   cheque: Cheque
   city: Miejscowość
   clone: Clone
-  code: Code
+  code: Kod
   combine: Combine
   complete: complete
   complete_list: "Complete List"
@@ -482,15 +482,15 @@ pl:
       gt: greater than
       gte: greater than or equal to
   items: "Items"
-  last_14_days: "Last 14 Days"
-  last_5_orders: "Last 5 Orders"
-  last_7_days: "Last 7 Days"
-  last_month: "Last Month"
+  last_14_days: "Ostatnie 14 Dni"
+  last_5_orders: "Ostatnie 5 Zamówień"
+  last_7_days: "Ostatnie 7 Dni"
+  last_month: "Poprzedni miesiąc"
   last_name: Nazwisko
-  last_name_begins_with: "Last Name Begins With"
-  last_year: "Last Year"
-  leave_blank_to_not_change: "(leave blank if you don't want to change it)"
-  list: List
+  last_name_begins_with: "Nazwisko zaczyna się od"
+  last_year: "Ostatni rok"
+  leave_blank_to_not_change: "(pozostaw puste jeżeli nie chcesz zmieniać)"
+  list: Lista
   listing_categories: "Lista kategorii"
   listing_option_types: "Lista typów opcji"
   listing_orders: "Lista zamówień"
@@ -504,10 +504,10 @@ pl:
   log_in: Zaloguj
   logged_in_as: "Zalogowany jako"
   logged_in_succesfully: "Użytkownik został zalogowany."
-  logged_out: "You have been logged out."
+  logged_out: "Wylogowano."
   login: Login
   login_as_existing: "Zaloguj się"
-  login_failed: "Login authentication failed."
+  login_failed: "Logowanie niepoprawne."
   login_name: Login
   logout: Wyloguj
   look_for_similar_items: Przeglądaj podobne produkty
@@ -525,13 +525,13 @@ pl:
   meta_keywords: "Meta Keywords"
   metadata: "Metadata"
   minimal_amount: "Minimal Amount"
-  missing_required_information: "Missing Required Information"
-  month: "Month"
+  missing_required_information: "Brakuje wymaganych informacji"
+  month: "Miesiąc"
   my_account: "Moje konto"
   my_orders: Moje zamówienia
-  name: Name
-  name_or_sku: "Name or SKU"
-  new: New
+  name: Nazwa
+  name_or_sku: "Nazwa lub SKU"
+  new: Nowe
   new_adjustment: "New Adjustment"
   new_billing_integration: New Billing Integration
   new_category: "Nowa kategoria"
@@ -584,16 +584,16 @@ pl:
     product_not_deleted: "Product could not be deleted"
     variant_deleted: "Variant has been deleted"
     variant_not_deleted: "Variant could not be deleted"
-  on_hand: "On Hand"
+  on_hand: "Na stanie"
   operation: Operacja
-  option_type: "Option Type"
+  option_type: "Typ Opcji"
   option_types: "Typy Opcji"
-  option_value: "Option Value"
-  option_values: "Option Values"
+  option_value: "Wartość Opcji"
+  option_values: "Wartości Opcji"
   options: Opcje
   or: lub
-  ord_qty: "Ord. Qty"
-  ord_total: "Ord. Total"
+  ord_qty: "ilość Zam."
+  ord_total: "suma Zam."
   order: Zamówienie
   order_confirmation_note: ""
   order_date: "Data zamówienia"
@@ -601,9 +601,9 @@ pl:
   order_email_resent: "Email z zamowieniem ponownie przesłany"
   order_mailer: 
     cancel_email: 
-      subject: "Cancellation of Order"
+      subject: "Anulowanie zamówienia"
     confirm_email: 
-      subject: "Order Confirmation"
+      subject: "Potwierdzenia zamówienia"
   order_not_in_system: That order number is not valid on this site.
   order_number: "Nr zamówienia"
   order_operation_authorize: Autoryzuj
@@ -623,15 +623,15 @@ pl:
     resumed: wznowione
     returned: zwrócone
   order_summary: Podsumowanie zamówienia
-  order_sure_want_to: "Are you sure you want to %{event} this order?"
+  order_sure_want_to: "Na pewno %{event} to zamówienie?"
   order_total: "Zamówienie łącznie"
-  order_total_message: "The total amount charged to your card will be"
+  order_total_message: "Całkowita suma którą zostanie obciążone Twoje konto"
   order_updated: "Zamówienie uaktualnione"
   orders: Zamówienia
-  other_payment_options: Other Payment Options
-  out_of_stock: "Out of Stock"
+  other_payment_options: Inne opcje płatności
+  out_of_stock: "Brak produktu na stanie"
   out_of_stock_products: "Out of Stock Products"
-  over_paid: "Over Paid"
+  over_paid: "Przpłacono"
   overview: Przegląd
   overview_welcome: "Welcome to your store overview, currently we do not have enough data to display the Overiew Dashboard.<br/><br/> The dashboard will display automatically once the system has sufficent orders to allow generation of the statistics."
   page_only_viewable_when_logged_in: You attempted to visit a page which can only be viewed when you are logged in
@@ -653,39 +653,39 @@ pl:
   payment_methods: Payment Methods
   payment_methods_setting_description: Configure methods customers can use to pay
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
-  payment_state: Payment State
+  payment_state: Stan płatności
   payment_states: 
-    balance_due: balance due
-    checkout: checkout
-    completed: completed
+    balance_due: saldo
+    checkout: zamówienie
+    completed: ukończone
     credit_owed: credit owed
-    failed: failed
-    paid: paid
-    pending: pending
-    processing: processing
-    void: void
-  payment_updated: Payment Updated
-  payments: Payments
-  pending_payments: Pending Payments
+    failed: nieudane
+    paid: opłacone
+    pending: oczekujące
+    processing: przetwarzanie
+    void: unieważnione
+  payment_updated: Płatność uaktualniona
+  payments: Płatności
+  pending_payments: Oczekujące płatności
   permalink: Permalink
   phone: Telefon
   place_order: Place Order
-  please_create_user: "Please create a user account"
+  please_create_user: "Proszę utworzyć konto użytkownika"
   powered_by: "Powered by"
   presentation: Presentacja
-  preview: Preview
+  preview: Podgląd
   previous: Poprzednie
   price: Cena
-  price_bucket: Price Bucket
-  price_with_vat_included: "%{price} (inc. VAT)"
+  price_bucket: Koszyk płatności
+  price_with_vat_included: "%{price} (z VAT)"
   problem_authorizing_card: "Wystąpił problem przy autoryzacji karty"
   problem_capturing_card: "Wystąpił problem z przechwyceniem karty"
   problems_processing_order: "Wystąpiły problemy podczas przetwarzania zamówienia"
-  proceed_as_guest: "No Thanks, Proceed as Guest"
+  proceed_as_guest: "Nie dzięki, Kontynuuj jako gość"
   process: Przetwarzaj
   product: Produkt
-  product_details: "Product Details"
-  product_group: Product Group
+  product_details: "Szczeguły produktu"
+  product_group: Grupa produktu
   product_group_invalid: Product Group has invalid scopes
   product_groups: Product Groups
   product_has_no_description: Produkt nie posiada opisu
@@ -843,20 +843,20 @@ pl:
   provider: "Provider"
   provider_settings_warning: "If you are changing the provider type, you must save first before you can edit the provider settings"
   qty: Ilość
-  quantity_returned: Quantity Returned
-  quantity_shipped: Quantity Shipped
+  quantity_returned: Ilość zwrócona
+  quantity_shipped: Ilość dostarczona
   range: "Range"
-  rate: Rate
-  reason: Reason
-  recalculate_order_total: "Recalculate order total"
-  receive: receive
-  received: Received
+  rate: Ocena
+  reason: Powód
+  recalculate_order_total: "Przlicz zamówienie"
+  receive: odbierz
+  received: Otrzymano
   refund: Refund
-  register: Register as a New User
+  register: Utowórz konto
   register_or_guest: Checkout as Guest or Register
   registration: Rejestracja
   remember_me: "Zapamiętaj mnie"
-  remove: Remove
+  remove: Usuń
   reports: Raporty
   required_for_solo_and_maestro: Required for Solo and Maestro cards.
   resend: "Przeslij ponownie"
